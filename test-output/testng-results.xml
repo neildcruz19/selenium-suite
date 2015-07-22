@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="8136" started-at="2015-07-22T08:58:40Z" finished-at="2015-07-22T08:58:48Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="8136" started-at="2015-07-22T08:58:40Z" finished-at="2015-07-22T08:58:48Z">
+      <class name="com.selenium.test.base.BaseTestCase">
+        <test-method status="PASS" signature="initDriver()[pri:0, instance:com.selenium.test.base.BaseTestCase@347e5c86]" name="initDriver" duration-ms="2487" started-at="2015-07-22T01:58:40Z" description="Initialize the Driver" finished-at="2015-07-22T01:58:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method status="PASS" signature="launchPage()[pri:0, instance:com.selenium.test.base.BaseTestCase@347e5c86]" name="launchPage" duration-ms="1285" started-at="2015-07-22T01:58:42Z" description="Launch the page to be tested" depends-on-methods="com.selenium.test.base.BaseTestCase.initDriver" finished-at="2015-07-22T01:58:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchPage -->
+        <test-method status="PASS" signature="googleTest()[pri:0, instance:com.selenium.test.base.BaseTestCase@347e5c86]" name="googleTest" duration-ms="4339" started-at="2015-07-22T01:58:43Z" description="Sample Google Test case" depends-on-methods="com.selenium.test.base.BaseTestCase.launchPage" finished-at="2015-07-22T01:58:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleTest -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.selenium.test.base.BaseTestCase@347e5c86]" name="closeBrowser" is-config="true" duration-ms="8" started-at="2015-07-22T01:58:48Z" finished-at="2015-07-22T01:58:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.selenium.test.base.BaseTestCase -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
